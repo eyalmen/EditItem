@@ -1,0 +1,15 @@
+name: EditItem
+version: '${project.version}'
+main: me.ma.edititem.Main
+api-version: 1.18
+prefix: EditItem
+authors: [ Madamadam ]
+description: This plugin provides an easy to use command to edit every aspect of an item!
+commands:
+  edititem:
+    usage: /edititem
+    description: A useful command that allows you to edit every aspect of the item in your hand! Type /eihelp and the option for a detailed description of that option
+    aliases: ei
+  eihelp:
+    usage: /eihelp
+    description: This command explains every option in the /edititem command. Type /eihelp and then the option for a detailed explanation.
